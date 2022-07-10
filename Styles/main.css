@@ -1,0 +1,122 @@
+h1 {
+  margin: 20px auto 0px auto;
+  font-size: 70px;
+  font-family: 'Tangerine', cursive;
+}
+
+h2 {
+  position: absolute;
+  font-size: 30px;
+  font-family: 'Staatliches', cursive;
+  left: 35%;
+}
+.pro {
+  text-decoration: underline;
+}
+
+.img {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  height: 200px;
+  width: 200px;
+}
+
+.BodyText {
+  color: #fe2c3e;
+  position: absolute;
+  left: 25%;
+  top: 30%;
+}
+
+.contact {
+  position: absolute;
+  top: 60px;
+  right: 15%;
+}
+
+.MyPhoto {
+  position: absolute;
+  width: auto;
+  top: 4px;
+  right: 0px;
+}
+
+.myimg {
+  height: 720px;
+  opacity: 0.7;
+}
+
+.fade {
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.social-icons {
+  position: absolute;
+  top: 55%;
+  left: 25%;
+}
+
+a {
+  padding-left: 2em;
+}
+
+i {
+  padding-left: 2em;
+}
+
+.Contact {
+  position: absolute;
+  top: 10%;
+  right: 15%;
+  z-index: 1;
+}
